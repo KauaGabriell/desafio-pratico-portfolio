@@ -34,3 +34,11 @@
   --text-md: 400 16px/140% var(--maven-font-family);
   --text-sm: 400 14px/140% var(--maven-font-family);
 }
+
+.container{
+  max-width: 1040px;
+}
+
+.text-red{
+  color: var(--red);
+}
