@@ -24,7 +24,7 @@ header.container{
 
 }
 
-#grid{
+#grid-projects{
   display: grid;
   grid-template-columns: repeat(3, 330px);
   gap: 24px;
@@ -56,4 +56,8 @@ header.container{
     margin-left: 16px;
     margin-bottom: 25px;
   }
+}
+
+.project-card:hover{
+  border: 1.5px solid var(--gray-400);
 }
